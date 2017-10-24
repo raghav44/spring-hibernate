@@ -21,10 +21,6 @@ public class Customer {
 	@Column(name="last-name")
 	private String lastName;
 	
-	@Override
-	public String toString() {
-		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
-	}
 
 	public int getId() {
 		return id;
